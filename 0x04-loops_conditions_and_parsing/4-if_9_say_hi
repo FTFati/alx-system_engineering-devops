@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+# but for the 9th iteration, displays Hi
+
+count=0
+while [ $count -lt 11 ]
+do
+    if [ $count = 9 ]
+    then
+        echo "Hi"
+    else
+        echo "Best School"
+    fi
+    let count+=1
+done
