@@ -11,7 +11,7 @@ do
     while [ $Min -lt 60 ]
     do
         echo $Min
-	let Min+=1
+	((Min+=1))
     done
-    let H+=1
+    ((H+=1))
 done
