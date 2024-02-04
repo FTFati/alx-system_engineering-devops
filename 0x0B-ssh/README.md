@@ -4,6 +4,7 @@
 - Connecting to and working with servers using the SSH protocol.
 
 ## General:
+
 * What is a server
 * Where servers usually live
 * What is SSH
