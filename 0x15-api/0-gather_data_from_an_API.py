@@ -7,6 +7,7 @@ returns information about his/her TODO list progress.
 
 import requests
 from sys import argv
+
 if __name__ == "__main__":
     employee_ID = int(argv[1])
     person_res = requests.get("\
